@@ -1,3 +1,4 @@
+// 29-30-2025
 //so first thing today in java Script i will be learning how to write comments 
 
 //to write single line coments we use // style coment 
@@ -189,7 +190,7 @@ timesFive(5);
 let outware = "T-shirt";
 
 function outfit(){
-    let inware = "sweater";         // currently not working dont know the error will solve later //
+    let outware = "sweater";         // currently not working dont know the error will solve later //
     return outware;
 }
 outfit();
@@ -211,5 +212,3 @@ function nextinline(arr,item){
     let removed = arr.shift();
     return removed;
 }
-
-
