@@ -375,8 +375,9 @@ console.log(addieeng(5, ));  // we can see here we are getting the output an dit
 // function sum is able to take any number of arguments and return their sum.
 const sum = (...args) => {
     let total=0;
-    for(let i=0; i<args.length; i++);{
-    total += args[i];                      // neeeed to clarify this error 
+    let j=0;
+    for(j=0; j<args.length; j++);{
+    total = total + args[j];                      // neeeed to clarify this error 
     }
 return total;
 }
