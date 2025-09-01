@@ -13,13 +13,13 @@ my name is sai shashidhar r */
 
 /*there are 8 different data types 
 undefined 
-null 
-string 
-boolen -- 4 bytes 
-symbol 
-bigint -- 
-number -- 8 bytes 
-object 
+null   -- null
+string -- 16 bits (2 bytes)
+boolen -- 1 bit 
+symbol -- 64 bit(8 bytes)
+bigint -- if the data crosses 2^53-1 only then bigint will be initialized it can change its limits by its avaiable data  
+number -- 64 bit(8 bytes) 
+object -- 64 bit(8 bytes)
 
 any of this datatype can be stored in a variable so to tell the computer we are enterning a variable we tell it by 
 putting "var" in front of it and it should end with a semicolon 
