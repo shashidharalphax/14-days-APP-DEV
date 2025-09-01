@@ -15,10 +15,10 @@ my name is sai shashidhar r */
 undefined 
 null 
 string 
-boolen 
+boolen -- 4 bytes 
 symbol 
-bigint 
-number 
+bigint -- 
+number -- 8 bytes 
 object 
 
 any of this datatype can be stored in a variable so to tell the computer we are enterning a variable we tell it by 

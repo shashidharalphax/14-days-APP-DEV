@@ -143,3 +143,52 @@ console.log(cc(2),cc(3),cc('K'),cc(6)); // have a dought in the output ask megha
 
 
 // OBJECT 
+let dog ={
+    name : "Oscor",
+    "legs dog" : 4,
+    tail : 1,
+    friends : ["bidinayi",'malik']
+}
+// this is how an object is defined and 
+console.log(dog);
+dog.tail=21;// updating of the 
+console.log(dog);
+//dog.preventExtensions();// what does this do is it prevents data from being added but we can modify and delete the data which is already present 
+dog["legs dog"] = 3;// to ubdate the property values if there haev spaces in between we use the [] and change it as done here 
+console.log(dog)
+delete dog.name;
+console.log(dog);
+
+// this is like one of the problem which is intresent initally it was in switch statements then changed it to object 
+function phoneticLookup(val) {
+  let result = "";
+
+  // Only change code below this line
+  let lookup={
+    "alpha" : "Adams",
+    "bravo" : "Boston",
+    "charlie" : "Chicago",
+    "delta" : "Denver",
+    "echo" : "Easy",
+    "foxtrot" : "Frank"
+  }
+  result = lookup[val]; // i did not add thsi line before i needed to add it dont make this mistake again 
+  // Only change code above this line
+  return result;
+}
+
+console.log(phoneticLookup("charlie"));
+// for .hasOwnProperty 
+
+function checkObj(obj, checkProp) { //we need to add values to obj,checkProp to run this code we need to define them 
+  // Only change code below this line
+  if (obj.hasOwnProperty(checkProp)){
+    return obj[checkProp];
+  }else{
+    return "Not Found"
+  }
+  
+  // Only change code above this line
+}
+
+
