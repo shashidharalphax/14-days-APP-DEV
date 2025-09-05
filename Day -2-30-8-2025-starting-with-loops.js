@@ -376,7 +376,7 @@ console.log(addieeng(5, ));  // we can see here we are getting the output an dit
 const sum = (...args) => {
     let total=0;
     let j=0;
-    for(j=0; j<args.length; j++);{
+    for(j=0; j<args.length; j++){
     total = total + args[j];                      // neeeed to clarify this error 
     }
 return total;
